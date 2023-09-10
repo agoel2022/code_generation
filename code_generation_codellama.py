@@ -2,7 +2,7 @@ class load_model:
 
    model_id='Codellama/codeLlama-7b-hf'
   #model_id='pytorch_model-00007-of-00007.bin'
-   hf_auth='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'
+   hf_auth='xxxxx'
    device = f'cuda:{cuda.current_device()}' if cuda.is_available() else 'cpu'
 
 
